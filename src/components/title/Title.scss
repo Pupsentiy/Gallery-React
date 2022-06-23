@@ -1,0 +1,30 @@
+.title__wrapper {
+    padding: 98px 135px 0px 135px;
+
+    .intro {
+        display: flex;
+        justify-content: center;
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            max-width: 600px;
+
+            .intro__title {
+                font-size: 72px;
+                color: #ffffff;
+                font-weight: 400;
+                margin-bottom: 30px;
+            }
+
+            .intro__subtitle {
+                color: rgba(255, 255, 255, 0.6392156863);
+                font-size: 16px;
+                text-align: center;
+                padding-bottom: 61px;
+                line-height: 25px;
+            }
+        }
+    }
+}
